@@ -12,7 +12,3 @@ Copies the lines you've selected with the line number and additional document me
 ### 1.0.0
 
 Initial release.
-
-'
-# TODO
-* Copy with syntax highlighting

@@ -1,5 +1,8 @@
 
+# TODO
+* Copy with syntax highlighting
 
+# Resources
 [Publishing](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 [API Reference](https://code.visualstudio.com/api/references/vscode-api#commands.registerTextEditorCommand)
 
