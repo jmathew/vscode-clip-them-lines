@@ -1,0 +1,22 @@
+[
+  {
+    "uri": {
+      "$mid": 1,
+      "fsPath": "c:\\Users\\jeff\\work\\deer",
+      "_sep": 1,
+      "external": "file:///c%3A/Users/jeff/work/deer",
+      "path": "/c:/Users/jeff/work/deer",
+      "scheme": "file"
+    },
+    "name": "deer",
+    "index": 0
+  },
+  {
+    "$mid": 1,
+    "fsPath": "c:\\Users\\jeff\\work\\deer\\deer-cli-perf-tests\\Benchmarks\\EqualsRecordVsEqualsId.cs",
+    "_sep": 1,
+    "external": "file:///c%3A/Users/jeff/work/deer/deer-cli-perf-tests/Benchmarks/EqualsRecordVsEqualsId.cs",
+    "path": "/c:/Users/jeff/work/deer/deer-cli-perf-tests/Benchmarks/EqualsRecordVsEqualsId.cs",
+    "scheme": "file"
+  }
+]
