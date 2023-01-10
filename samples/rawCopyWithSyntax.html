@@ -1,0 +1,66 @@
+<html>
+
+<body>
+  <!--StartFragment-->
+  <div
+    style="color: #000000;background-color: #ffffff;font-family: 'Fira Code', Consolas, 'Courier New', monospace;font-weight: normal;font-size: 16px;line-height: 22px;white-space: pre;">
+    <div><span style="color: #000000;">&#160;</span><span style="color: #af00db;">if</span><span
+        style="color: #000000;"> (</span><span style="color: #001080;">_r</span><span
+        style="color: #000000;">.</span><span style="color: #795e26;">Next</span><span
+        style="color: #000000;">(</span><span style="color: #098658;">0</span><span style="color: #000000;">,
+      </span><span style="color: #098658;">2</span><span style="color: #000000;">) </span><span
+        style="color: #000000;">==</span><span style="color: #000000;"> </span><span
+        style="color: #098658;">0</span><span style="color: #000000;">)</span></div>
+    <div><span style="color: #000000;">&#160; &#160; &#160; {</span></div>
+    <div><span style="color: #000000;">&#160; &#160; &#160; &#160; </span><span style="color: #008000;">// These are new
+        records.</span></div>
+    <div><span style="color: #000000;">&#160; &#160; &#160; &#160; </span><span style="color: #0000ff;">var</span><span
+        style="color: #000000;"> </span><span style="color: #001080;">rec</span><span style="color: #000000;">
+      </span><span style="color: #000000;">=</span><span style="color: #000000;"> </span><span
+        style="color: #0000ff;">new</span><span style="color: #000000;"> </span><span
+        style="color: #267f99;">SomeRecord</span><span style="color: #000000;">(</span><span
+        style="color: #267f99;">Guid</span><span style="color: #000000;">.</span><span
+        style="color: #795e26;">NewGuid</span><span style="color: #000000;">(), </span><span
+        style="color: #001080;">_r</span><span style="color: #000000;">.</span><span
+        style="color: #795e26;">Next</span><span style="color: #000000;">(), </span><span
+        style="color: #001080;">_r</span><span style="color: #000000;">.</span><span
+        style="color: #795e26;">Next</span><span style="color: #000000;">(), </span><span
+        style="color: #001080;">_r</span><span style="color: #000000;">.</span><span
+        style="color: #795e26;">Next</span><span style="color: #000000;">(), </span><span
+        style="color: #267f99;">Guid</span><span style="color: #000000;">.</span><span
+        style="color: #795e26;">NewGuid</span><span style="color: #000000;">()</span><span
+        style="color: #000000;">.</span><span style="color: #795e26;">ToString</span><span style="color: #000000;">(),
+      </span><span style="color: #267f99;">Guid</span><span style="color: #000000;">.</span><span
+        style="color: #795e26;">NewGuid</span><span style="color: #000000;">()</span><span
+        style="color: #000000;">.</span><span style="color: #795e26;">ToString</span><span style="color: #000000;">(),
+      </span><span style="color: #267f99;">Guid</span><span style="color: #000000;">.</span><span
+        style="color: #795e26;">NewGuid</span><span style="color: #000000;">()</span><span
+        style="color: #000000;">.</span><span style="color: #795e26;">ToString</span><span style="color: #000000;">(),
+      </span><span style="color: #267f99;">DateTime</span><span style="color: #000000;">.</span><span
+        style="color: #001080;">Now</span><span style="color: #000000;">, </span><span
+        style="color: #267f99;">DateTime</span><span style="color: #000000;">.</span><span
+        style="color: #001080;">Now</span><span style="color: #000000;">, </span><span
+        style="color: #267f99;">DateTime</span><span style="color: #000000;">.</span><span
+        style="color: #001080;">Now</span><span style="color: #000000;">, </span><span
+        style="color: #267f99;">FlobStatus</span><span style="color: #000000;">.</span><span
+        style="color: #001080;">Default</span><span style="color: #000000;">, </span><span
+        style="color: #267f99;">FlobStatus</span><span style="color: #000000;">.</span><span
+        style="color: #001080;">Deleted</span><span style="color: #000000;">, </span><span
+        style="color: #267f99;">FlobStatus</span><span style="color: #000000;">.</span><span
+        style="color: #001080;">Default</span><span style="color: #000000;">);</span></div>
+    <div><span style="color: #000000;">&#160; &#160; &#160; &#160; </span><span
+        style="color: #001080;">records</span><span style="color: #000000;">.</span><span
+        style="color: #795e26;">Add</span><span style="color: #000000;">(</span><span
+        style="color: #001080;">rec</span><span style="color: #000000;">);</span></div>
+    <div><span style="color: #000000;">&#160; &#160; &#160; &#160; </span><span
+        style="color: #001080;">recordIds</span><span style="color: #000000;">.</span><span
+        style="color: #795e26;">Add</span><span style="color: #000000;">(</span><span
+        style="color: #001080;">rec</span><span style="color: #000000;">.</span><span
+        style="color: #001080;">Id</span><span style="color: #000000;">);</span></div>
+    <div><span style="color: #000000;">&#160; &#160; &#160; }</span></div>
+    <div><span style="color: #000000;">&#160; &#160; &#160; </span><span style="color: #af00db;">else</span></div>
+    <div><span style="color: #000000;">&#160; &#160; &#160; {</span></div>
+  </div><!--EndFragment-->
+</body>
+
+</html>
