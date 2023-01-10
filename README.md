@@ -1,4 +1,4 @@
-# vscode-clip-them-lines README
+# vscode-clip-them-lines
 
 Copies the lines you've selected with the line number and additional document meta data.
 
