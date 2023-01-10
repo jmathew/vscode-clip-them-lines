@@ -2,6 +2,11 @@
 # TODO
 * Copy with syntax highlighting
 
+## Creating 
+## Creating a publisher
+You can create a publisher directly in the Marketplace: https://aka.ms/vscode-create-publisher
+https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/create-organization?view=azure-devops
+
 # Resources
 [Publishing](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 [API Reference](https://code.visualstudio.com/api/references/vscode-api#commands.registerTextEditorCommand)
