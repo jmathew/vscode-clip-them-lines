@@ -15,7 +15,6 @@ export function activate(context: vscode.ExtensionContext) {
       const sorted = [...textEditor.selections].sort((a, b) => a.start.line - b.start.line);
       for (let j = 0; j < sorted.length; ++j) {
         const selection = sorted[j];
-        const ll = await vscode.commands.executeCommand('editor.action.clipboardCopyWithSyntaxHighlightingAction');
 
         for (let j = selection.start.line; j <= selection.end.line; ++j) {
           const line = textEditor.document.lineAt(j);
