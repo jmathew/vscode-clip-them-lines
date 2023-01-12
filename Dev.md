@@ -4,8 +4,25 @@
 
 ## Creating 
 ## Creating a publisher
-You can create a publisher directly in the Marketplace: https://aka.ms/vscode-create-publisher
-https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/create-organization?view=azure-devops
+Create a publisher here.
+* [Them Projects Azure Dev Portal](https://dev.azure.com/ThemProjects)
+
+Create an organization here.
+* [Publisher management portal](https://marketplace.visualstudio.com/manage/publishers/jeffmathew)
+  * If 500, try logging in an incognito window with ad blockers disabled.
+
+See your orgs here too
+* [Azure devops me](https://aex.dev.azure.com/me?mkt=en-US)
+
+Always make a new command prompt when running vsce commands.
+
+
+## Commands
+```
+vsce login jeffmathew
+vsce publish 
+```
+That never works so instead do `vsce package` and upload in the web ui. Where it will also fail.
 
 # Resources
 [Publishing](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)

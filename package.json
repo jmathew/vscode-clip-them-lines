@@ -1,8 +1,12 @@
 {
   "name": "vscode-clip-them-lines",
   "displayName": "Clip Them Lines",
-  "publisher": "JeffMathew",
+  "publisher": "jeffmathew",
   "description": "Copy code along with line information and other metadata.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmathew/vscode-clip-them-lines"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
